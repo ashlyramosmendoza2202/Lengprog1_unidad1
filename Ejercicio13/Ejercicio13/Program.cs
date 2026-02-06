@@ -7,10 +7,15 @@ class Ejercicio13
         int a = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Final:");
         int b = Convert.ToInt32(Console.ReadLine());
-        int i = a;
-        while (i <= b)
+        int final = Convert.ToInt32(Console.ReadLine());
+
+        int suma = 0;
+
+       for(int i = inicio; i <= final; i++)
         {
-            Console.WriteLine(i);
-            i = i + 1;
+            suma = suma + i;
         }
-    
+
+        Console.WriteLine("La suma es: " + suma);
+
+
